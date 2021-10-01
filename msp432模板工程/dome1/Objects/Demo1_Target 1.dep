@@ -1,0 +1,103 @@
+Dependencies for Project 'Demo1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\USER\main.c)(0x612787F1)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\lib -I E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source -I E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\third_party\CMSIS -I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-Ie:\DataFile\比赛\电赛\TestDemo\dome1\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P4011__ -D__MSP432P4011__-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\driverlib.h)(0x6126BCC6)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\adc14.h)(0x5E30CD67)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\inc\msp.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\inc\msp432p4011.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\inc\msp_compatibility.h)(0x5E30CD67)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\inc\system_msp432p4011.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\aes256.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\comp_e.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\cpu.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\crc32.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\cs.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\dma.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\interrupt.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\eusci.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\fpu.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\gpio.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\i2c.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\mpu.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\pcm.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\pmap.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\pss.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\ref_a.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\reset.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\rom.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\rom_map.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\rtc_c.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\spi.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\systick.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\timer32.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\timer_a.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\uart.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\wdt_a.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\sysctl_a.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\flash_a.h)(0x5E30CD67)
+I (.\lib\pid.h)(0x6127878C)
+I (USER\isr.h)(0x61275D0C)
+F (.\USER\isr.c)(0x61275D08)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\lib -I E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source -I E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\third_party\CMSIS -I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-Ie:\DataFile\比赛\电赛\TestDemo\dome1\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P4011__ -D__MSP432P4011__-o .\objects\isr.o --omf_browse .\objects\isr.crf --depend .\objects\isr.d)
+I (USER\isr.h)(0x61275D0C)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\driverlib.h)(0x6126BCC6)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\adc14.h)(0x5E30CD67)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\inc\msp.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\inc\msp432p4011.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\inc\msp_compatibility.h)(0x5E30CD67)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\inc\system_msp432p4011.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\aes256.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\comp_e.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\cpu.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\crc32.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\cs.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\dma.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\interrupt.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\eusci.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\fpu.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\gpio.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\i2c.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\mpu.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\pcm.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\pmap.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\pss.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\ref_a.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\reset.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\rom.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\rom_map.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\rtc_c.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\spi.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\systick.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\timer32.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\timer_a.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\uart.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\wdt_a.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\sysctl_a.h)(0x5E30CD67)
+I (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\flash_a.h)(0x5E30CD67)
+F (.\lib\pid.c)(0x612787B9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\lib -I E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source -I E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\third_party\CMSIS -I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-Ie:\DataFile\比赛\电赛\TestDemo\dome1\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P4011__ -D__MSP432P4011__-o .\objects\pid.o --omf_browse .\objects\pid.crf --depend .\objects\pid.d)
+I (lib\pid.h)(0x6127878C)
+F (E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\ti\devices\msp432p4xx\driverlib\keil\msp432p4xx_driverlib.lib)(0x5E30CD67)()
+F (RTE\Device\MSP432P4011\startup_msp432p4011_uvision.s)(0x5A5C0C56)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-Ie:\DataFile\比赛\电赛\TestDemo\dome1\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "__MSP432P4011__ SETA 1"--list .\listings\startup_msp432p4011_uvision.lst --xref -o .\objects\startup_msp432p4011_uvision.o --depend .\objects\startup_msp432p4011_uvision.d)
+F (RTE\Device\MSP432P4011\system_msp432p4011.c)(0x5B694278)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER -I .\lib -I E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source -I E:\ti\simplelink_msp432p4_sdk_3_40_01_02\source\third_party\CMSIS -I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-Ie:\DataFile\比赛\电赛\TestDemo\dome1\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P4011__ -D__MSP432P4011__-o .\objects\system_msp432p4011.o --omf_browse .\objects\system_msp432p4011.crf --depend .\objects\system_msp432p4011.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp.h)(0x5B694274)
+I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp432p4011.h)(0x5B694274)
+I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp_compatibility.h)(0x5B694274)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\system_msp432p4011.h)(0x5B694276)

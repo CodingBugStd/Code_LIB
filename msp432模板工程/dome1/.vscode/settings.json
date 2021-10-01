@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "driverlib.h": "c",
+        "adc14.h": "c",
+        "msp.h": "c",
+        "msp432p4011.h": "c",
+        "rom.h": "c",
+        "gpio.h": "c",
+        "interrupt.h": "c",
+        "eusci.h": "c",
+        "timer_a.h": "c",
+        "timer32.h": "c",
+        "i2c.h": "c"
+    }
+}
