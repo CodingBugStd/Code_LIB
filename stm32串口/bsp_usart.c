@@ -154,6 +154,22 @@ uint8_t Usart_Send(uint8_t USARTx,uint8_t *dat,uint8_t len)
     return 1;
 }
 
+uint8_t Usart_SendString(uint8_t USARTx,uint8_t*str)
+{
+    if(Usart_BusyCheck(USARTx) == 0)
+    {
+        while(*str!='\0' && Tx_Len(USARTx) < Tx_SbufferSize)
+        {
+            USART_Tx_Sbuffer[USARTx-1][Tx_Len(USARTx)+1] = *str;
+            USART_Tx_Sbuffer[USARTx-1][0]++;
+            str++;
+        }
+        TargetDMA_Channel[USARTx-1]->CNDTR = Tx_Len(USARTx);
+        TargetDMA_Channel[USARTx-1]->CCR |= DMA_CCR1_EN;
+        return 0;
+    }
+    return 1;
+}
 uint8_t Usart_BusyCheck(uint8_t USARTx)
 {
     if(USART_Tx_Sbuffer[USARTx-1][0] != 0)
@@ -176,16 +192,6 @@ void Rx_SbufferInput(uint8_t USARTx,uint8_t dat)
         USART_Rx_Sbuffer[USARTx-1][0]++;
     }else
         USART_Rx_Sbuffer[USARTx-1][0] = Rx_SbufferSize + 1;
-}
-
-uint8_t Rx_Len(uint8_t USARTx)
-{
-    return USART_Rx_Sbuffer[USARTx - 1][0];
-}
-
-uint8_t Tx_Len(uint8_t USARTx)
-{
-    return USART_Tx_Sbuffer[USARTx - 1][0];
 }
 
 void Tx_Flag_Clear(uint8_t USARTx)
@@ -259,3 +265,4 @@ void DMA1_Channel2_IRQHandler(void)
         DMA_ClearITPendingBit(DMA1_IT_TC2);
     }
 }
+
