@@ -2,32 +2,25 @@
 #define _BSP_OLED12864_H_
 
 #include "stm32f10x.h"
+#include "self_type.h"
 
-/**************************************************************************************
+/*************************************************
  * 基于stm32f103zet6的OLED12864 4Pin_SPI
  * OLED12864驱动芯片:SSD1306
- * 使用了self_type.h
- * 方便引脚初始化 和 输出
- * 
- * 2021/10/16: 将spi分离了出去,留出了spi接口OLED12864_SPI_Send_Byte()
- * 
  * Creat by: 庞碧璋
  * Github: https://github.com/CodingBugStd
  * csdn:   https://blog.csdn.net/RampagePBZ
  * Encoding: utf-8
  * date:    2021/6/22
- * last date: 2021/10/16
- * 
- * 备注:在移植时注意数据类型的依赖!
-**************************************************************************************/
+*************************************************/
 
 //外部函数
-#include "self_stm32f10x.h"
+#include "soft_delay.h"
 #include "bsp_spi.h"
 #define OLED12864_delay_ms(ms)                  soft_delay_ms(ms)
+#define OLED12864_delay_us(us)                  soft_delay_us(us)
+#define OLED12864_SPI_Send_NumByte(dat,len)     SPI_Send_NumByte(2,dat,len)
 #define OLED12864_SPI_Send_Byte(dat)            SPI_Send_Byte(2,dat)
-#define OLED12864_Set_Bit(pin_Num)              Pin_Set(OLED_Pin[pin_Num])
-#define OLED12864_Reset_Bit(pin_Num)            Pin_Reset(OLED_Pin[pin_Num])
 
 
 //硬件相关宏定义,定义物理引脚名字
@@ -78,6 +71,8 @@ void BSP_OLED12864_Init(void);
 void OLED12864_GPIO_Init(void);
 void OLED12864_Hard_Reset(void);
 
+void OLED12864_Set_Bit(uint8_t bit);                //底层函数
+void OLED12864_Reset_Bit(uint8_t bit);              //底层函数
 void OLED12864_Send_Byte(uint8_t dat,uint8_t cmd);
 void OLED12864_Send_NumByte(const uint8_t*dat,uint8_t len,uint8_t cmd);
 

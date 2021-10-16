@@ -93,8 +93,19 @@ void OLED12864_Send_Byte(uint8_t dat,uint8_t cmd)
         OLED12864_Set_Bit(OLED_DC);
     else
         OLED12864_Reset_Bit(OLED_DC);
+    soft_delay_us(2);
     
     OLED12864_SPI_Send_Byte(dat);
+}
+
+void OLED12864_Set_Bit(uint8_t bit)
+{
+    GPIO_SetBits(OLED_Pin[bit].GPIO,OLED_Pin[bit].Pin);
+}
+
+void OLED12864_Reset_Bit(uint8_t bit)
+{
+    GPIO_ResetBits(OLED_Pin[bit].GPIO,OLED_Pin[bit].Pin);
 }
 
 void OLED12864_Clear_PageBlock(uint8_t page,uint8_t x,uint8_t len)
@@ -250,9 +261,9 @@ void OLED12864_Draw_Point(uint8_t x,uint8_t y,uint8_t bit)
 
 void OLED12864_Draw_Line(uint8_t x1,uint8_t y1,uint8_t x2,uint8_t y2)
 {
-    float sx,sy;
-    float k,k_1;   //斜率
-    k = ((float)y2-y1) / ((float)x2-x1);
+    double sx,sy;
+    double k,k_1;   //斜率
+    k = ((double)y2-y1) / ((double)x2-x1);
     k_1 = 1/k;
     sx = x1;
     sy = y1;
